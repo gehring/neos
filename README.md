@@ -10,7 +10,7 @@
 ![](training.gif)
 
 ## Install
-To use `neos` right now, you have to seperately install the `fax` library for fixed-point differentiation:
+To use `neos` right now, you have to separately install the `fax` library for fixed-point differentiation:
 
 ```
 python -m pip install git+https://github.com/gehring/fax.git
@@ -130,4 +130,4 @@ for i, (network, metrics, epoch_time) in enumerate(train_network(maxN)):
 
 And there we go!!
 
-If you want to reproduce the full animation, a version of this code with plotting helpers can be found in `demo_training.ipynb`! :D
+If you want to reproduce the full animation, a version of this code with plotting helpers can be found in [`demo_training.ipynb`](https://github.com/pyhf/neos/blob/master/demo_training.ipynb)! :D
